@@ -1,0 +1,14 @@
+{
+  "streamKey": "live",
+  "videosPath": "./public/videos/",
+  "hls": {
+    "bufsize": "1835k",
+    "input": "rtmp://localhost/live/",
+    "maxrate": "400k",
+    "numberOfTries": 4,
+    "delayOfTries": 2000,
+    "output": "output.m3u8"
+  },
+  "maxBuffer": 5120,
+  "passwords": []
+}
